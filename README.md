@@ -4,7 +4,7 @@ Hi, my name is Katherine Li and I am currently a third year student studying com
 Here are some files to look at to see my programming skills. Under the Rose Hacks folder, you will see my contribution to the twenty-four hour hackathon that I participated recently in January 2020 with three other teammates. In the other files, you will see my programming approach to several problems that I have encountered. 
 
 # Files to look at: 
-Under right-way (My Rosehacks hackathon project that I worked on with three other people):
+Under right-way (Rosehacks hackathon project):
 
 app.py
 - Creating an algorithm with multiple functions that helped me find the rating of a used car
