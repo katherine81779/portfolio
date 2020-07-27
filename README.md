@@ -10,7 +10,7 @@ app.py
 - Creating an algorithm with multiple functions that helped me find the rating of a used car
 
 getAPI.py
- -In this file, I used the Car Query API to extract data on a specific model of a car
+- In this file, I used the Car Query API to extract data on a specific model of a car
  
 General Files:
  
