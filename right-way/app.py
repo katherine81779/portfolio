@@ -121,30 +121,33 @@ def resetData():
     answers = {}
     return redirect("/")
 
-# method/algorithm to calculate the results?
+# This is Katherine's contribution to finding the algorithm to calculate the quality of the car:
 
 # Rating goes from 1 - 10 
 # BAD to GOOD
 
 # function returns rating of mileage
-# an old car with avery low mileage is BAD! FIX FOR ALGORITHM
 def mileageRating( mileage ):
     if (mileage/100000 <= 1):
         return 10
     elif (mileage/100000 <= 10): 
         return (10 - mileage/10000 + 1)
     else: return 1
-
+    
+# function returns rating based on age
 # age is a huge factor when it comes to knowing the
-# quality of the car, a two year old
+# quality of the car
 def ageRating( age ):
     if (age <= 10): 
         return 10 - (age - 1)
     else: return 1
     
-# function returns last battery change
+# function returns rating since last battery change
 # batteries should be replaced after using 
 # the car for three years
+
+# if the car has not received a battery change in a long time,
+# it shows that the owner has not properly taken care of the car.
 def batteryChange(years):
     if (years > 3): return 1
     elif (years >= 2.5 and years <=3): return 3.5
