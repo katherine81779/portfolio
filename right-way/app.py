@@ -121,7 +121,10 @@ def resetData():
     answers = {}
     return redirect("/")
 
-# This is Katherine's contribution to finding the algorithm to calculate the quality of the car:
+# This is Katherine's contribution to finding the algorithm to calculate the quality of the car.
+# There could be more improvements made, because every car is unique and has certain characteristics
+# that range from good to bad. For example, certain brands of cars will not need a battery change
+# or oil change until they reach a much higher number compared to other brands. 
 
 # Rating goes from 1 - 10 
 # BAD to GOOD
@@ -172,7 +175,7 @@ def oilChange(age, miles):
         elif (miles >= 10000): return 1
         else: return 5
     
-# develops the final quality score for the car
+# averages the ratings and finds the final quality score for the car
 def find_average(mileageRate, ageRate, batteryRate, oilRate):
     return (mileageRate + batteryRate + ageRate + oilRate)/4.0
 
