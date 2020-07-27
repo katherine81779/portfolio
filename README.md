@@ -7,7 +7,7 @@ Here are some files to look at to see my programming skills. Under the Rose Hack
 Under right-way (My Rosehacks hackathon project that I worked on with three other people):
 
 app.py
-- Creating an algorithm with multiple functions that helped me find the rating of a used car. 
+- Creating an algorithm with multiple functions that helped me find the rating of a used car
 
 getAPI.py
  -In this file, I used the Car Query API to extract data on a specific model of a car
