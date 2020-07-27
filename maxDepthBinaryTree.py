@@ -10,6 +10,6 @@ class Solution:
         if root == None: 
             return 0
         else:
-            # I use recursively call both sides, and constantly compare the two
+            # I recursively called both sides, and constantly compared the two
             # tree nodes while adding to the deph. 
             return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
